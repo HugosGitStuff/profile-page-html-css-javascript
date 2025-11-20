@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;                                      /* clean page */
     background: linear-gradient(to right, #843ac0, #000000);   /* purple to black */
@@ -65,18 +67,18 @@ h2 {
     color: #666;
     padding: 16px 40px;
     font-family: "Inter", sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     border: none;
     border-radius: 50px;
     margin-right: 15px;
 }
 
 .like {
-    background-color: #000000;                      /* bright orange */
+    background-color: #000000;                      
     color: white;
     padding: 18px 50px;
     font-family: "Inter", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 50px;
@@ -93,6 +95,10 @@ footer p {
     color: #888;
     font-size: 20px;
     font-family: "Inter", sans-serif;
+}
+
+li {
+    list-style: none;
 }
 
 /* ——— SHADCN-STYLE SOCIAL BUTTONS (no HTML changes needed) ——— */
