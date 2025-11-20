@@ -6,7 +6,8 @@
     font-family: sans-serif;
 } */
 
-body {                                 
+body {   
+    margin: 0;                              
     background: linear-gradient(to right, #843ac0, #000000);   /* purple to black */
     padding-left: 80px;                             /* same as your original */
     padding-right: 80px;
