@@ -1,8 +1,6 @@
-/* resources/styles.css – only beginner stuff, purple & orange edition */
-
 body {
     margin: 0;                                      /* clean page */
-    background: linear-gradient(to bottom, #843ac0, #f37a2e);  /* purple to orange */
+    background: linear-gradient(to right, #843ac0, #000000);   /* purple to black */
     font-family: "Inter", sans-serif;
     padding-left: 80px;                             /* same as your original */
     padding-right: 80px;
@@ -11,10 +9,10 @@ body {
 }
 
 header, main, footer {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 24px;                            /* big soft corners */
-    margin-bottom: 30px;                            /* space between sections */
+    margin-bottom: 30px;              /* space between sections */                          
 }
 
 h1 {
@@ -42,7 +40,6 @@ h1 {
     width: 250px;
     border-radius: 18px;
     border: 6px solid white;
-    box-shadow: 0 8px 25px rgba(157,78,221,0.3);
 }
 
 .verified {
@@ -50,7 +47,7 @@ h1 {
     color: #9d4edd;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 12px;
 }
 
@@ -75,7 +72,7 @@ h2 {
 }
 
 .like {
-    background-color: #ff6b35;                      /* bright orange */
+    background-color: #000000;                      /* bright orange */
     color: white;
     padding: 18px 50px;
     font-family: "Inter", sans-serif;
@@ -83,7 +80,6 @@ h2 {
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    box-shadow: 0 8px 20px rgba(255,107,53,0.4);
 }
 
 hr {
@@ -122,11 +118,28 @@ nav a:last-child {       /* this one is LinkedIn */
     background-color: #0077b5;   /* official LinkedIn blue */
 }
 
-.distance {
+.about-me {
     font-size: 22px;
     font-family: "Inter", sans-serif;
-    color: #999;
+    color: black;
 }
+
+.contact {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+.personality {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+#connect {
+    margin-bottom: 30px;
+}
+
 
 
 
