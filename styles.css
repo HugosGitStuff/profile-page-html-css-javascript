@@ -152,7 +152,33 @@ nav a:last-child {        /* this one is LinkedIn */
     margin-bottom: 30px;
 }
 
+/* Tablet adjustments (screens smaller than 768px) */
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: 40px;   /* Less padding for tablets */
+        padding-right: 40px;
+    }
+    
+    h1 {
+        font-size: 32px;      /* Slightly smaller heading */
+    }
+}
 
+/* Phone adjustments (screens smaller than 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        padding-left: 15px;   /* Even less padding for phones */
+        padding-right: 15px;
+    }
+    
+    h1 {
+        font-size: 24px;      /* Smaller heading for phones */
+    }
+    
+    .tagline {
+        font-size: 18px;      /* Smaller tagline */
+    }
+}
 
 
 
